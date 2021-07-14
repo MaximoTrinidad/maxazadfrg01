@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "maxazadf01"
+		},
+		"AzureSqlMI_azmxtsmi001_connectionString": {
+			"value": ""
+		},
+		"AzureSql_azmxtsql001_connectionString": {
+			"value": ""
+		},
+		"linkedService1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage1_properties_privateLinkResourceId": {
+			"value": "/subscriptions/606ba8bb-2f0e-4ebb-87d5-d5479cbffdee/resourceGroups/2710f2c1-15a7-43e8-b222-d060ec7dd226/providers/Microsoft.Storage/storageAccounts/azadfblobstorage01"
+		},
+		"AzureBlobStorage1_properties_groupId": {
+			"value": "blob"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
